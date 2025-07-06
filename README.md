@@ -40,6 +40,24 @@ Each student record contains:
    .\student_management_system.exe
    ```
 
+## Demo Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main_menu.png)
+
+### Adding a Student
+![Add Student](screenshots/add_student.png)
+
+### Viewing All Students
+![View Students](screenshots/view_students.png)
+
+### Deleting a Student
+![Delete Student](screenshots/delete_student.png)
+
+### Updating Student Information
+![Update Student - Select Option](screenshots/update_student_1.png)
+![Update Student - Enter New Data](screenshots/update_student_2.png)
+
 ## How to Use
 
 ### Main Menu Options
