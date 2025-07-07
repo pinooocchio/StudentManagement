@@ -69,6 +69,21 @@ int main()
             number_ofstudent = i;
             fclose(f);
 
+            for (int i = 0; i < number_ofstudent; i++)
+            {
+                for (int j = i + 1; j < number_ofstudent; j++)
+                {
+                    if (a[i].semester > a[j].semester)
+                    {
+
+                        struct student swap;
+                        swap = a[i];
+                        a[i] = a[j];
+                        a[j] = swap;
+                    }
+                }
+            }
+
             printf("\n\n---------------------------------\n");
             if (number_ofstudent == 0)
             {
